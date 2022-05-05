@@ -12,7 +12,7 @@ void push(int ditem)
 	Node *new_node=(Node *)malloc(sizeof(Node));
 	if(new_node==NULL)
 	{
-		printf("Insufficient Memory.\n");
+		printf(" Insufficient Memory.\n");
 		return;
 	}
 	new_node->data=ditem;
