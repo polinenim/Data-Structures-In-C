@@ -17,7 +17,7 @@ int pop()
 {
 	if(top==-1)
 	{
-		printf("Stack Empty\n");
+		printf("Stack is Empty\n");
 		return INVALID_ITEM;
 	}
 	return stack[top--];
