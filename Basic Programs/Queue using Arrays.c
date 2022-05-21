@@ -61,7 +61,7 @@ void delete()
 	}
 	else
 	{
-		printf("Element deleted from queue is : %d\n", queue_array[front]);
+		printf("Element deleted  from queue is : %d\n", queue_array[front]);
 		front = front + 1;
 	}
 } 
