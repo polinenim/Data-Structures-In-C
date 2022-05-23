@@ -71,7 +71,7 @@ int main()
 	printf("Before sorting array  elements are - \n");
 	printArray(a, n);
 	mergeSort(a, 0, n - 1);
-	printf("After sorting array  elements are - \n");
+	printf("After sorting array elements are - \n");
 	printArray(a, n);
 	return 0;
 }
